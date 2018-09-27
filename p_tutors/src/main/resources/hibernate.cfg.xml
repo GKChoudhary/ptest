@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">root</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/ptutors_db</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+        <property name="hibernate.search.autoregister_listeners">false</property>
+        <property name="hibernate.validator.apply_to_ddl">false</property>
+        <mapping class="com.pcs.entities.CandidateCoursePayment" />
+        <mapping class="com.pcs.entities.SecretQuestion" />
+        <mapping class="com.pcs.entities.TutorialCenter" />
+        <mapping class="com.pcs.entities.HomeWorkHelp" />
+        <mapping class="com.pcs.entities.EducationalResources" />
+        <mapping class="com.pcs.entities.StudentDetails" />
+        <mapping class="com.pcs.entities.Teaser" />
+        <mapping class="com.pcs.entities.TutorSubject" />
+        <mapping class="com.pcs.entities.EducationCategories" />
+        <mapping class="com.pcs.entities.TutorMedium" />
+        <mapping class="com.pcs.entities.UserProfiles" />
+        <mapping class="com.pcs.entities.JobseekersDetails" />
+        <mapping class="com.pcs.entities.InstituteCategory" />
+        <mapping class="com.pcs.entities.TutorDetails" />
+        <mapping class="com.pcs.entities.ViewCount" />
+        <mapping class="com.pcs.entities.StudentSubject" />
+        <mapping class="com.pcs.entities.CourseName" />
+        <mapping class="com.pcs.entities.TeachingPatteren" />
+        <mapping class="com.pcs.entities.CountryName" />
+        <mapping class="com.pcs.entities.LocationName" />
+        <mapping class="com.pcs.entities.Assistance" />
+        <mapping class="com.pcs.entities.CcaTutorLanguage" />
+        <mapping class="com.pcs.entities.CourseQuery" />
+        <mapping class="com.pcs.entities.TutorPgEducation" />
+        <mapping class="com.pcs.entities.TutorTeachingSegment" />
+        <mapping class="com.pcs.entities.JobseekerFunctionalArea" />
+        <mapping class="com.pcs.entities.TeachingMedium" />
+        <mapping class="com.pcs.entities.TutorTeachingArena" />
+        <mapping class="com.pcs.entities.CourseCandidateDetails" />
+        <mapping class="com.pcs.entities.TutorTeachingPatteren" />
+        <mapping class="com.pcs.entities.CompanyType" />
+        <mapping class="com.pcs.entities.CcaTutor" />
+        <mapping class="com.pcs.entities.Subject" />
+        <mapping class="com.pcs.entities.Aaa" />
+        <mapping class="com.pcs.entities.WeeklyMessage" />
+        <mapping class="com.pcs.entities.UniversityInstitute" />
+        <mapping class="com.pcs.entities.TutorMembershipSubscription" />
+        <mapping class="com.pcs.entities.SchoolBoard" />
+        <mapping class="com.pcs.entities.CcaStudent" />
+        <mapping class="com.pcs.entities.EmployersDetails" />
+        <mapping class="com.pcs.entities.PostAdvertisement" />
+        <mapping class="com.pcs.entities.CareerQuestionAnswers" />
+        <mapping class="com.pcs.entities.InstantPostTutorRequirement" />
+        <mapping class="com.pcs.entities.TutorTeachingOption" />
+        <mapping class="com.pcs.entities.CcaStudentLanguage" />
+        <mapping class="com.pcs.entities.ContactUs" />
+        <mapping class="com.pcs.entities.CareerCafeQuestion" />
+        <mapping class="com.pcs.entities.TeachingOption" />
+        <mapping class="com.pcs.entities.IndustryType" />
+        <mapping class="com.pcs.entities.TutorUgEducation" />
+        <mapping class="com.pcs.entities.AcademicNewsletter" />
+        <mapping class="com.pcs.entities.CareerCafe" />
+        <mapping class="com.pcs.entities.Feedback" />
+        <mapping class="com.pcs.entities.InstituteSubCategory" />
+    </session-factory>
+</hibernate-configuration>
